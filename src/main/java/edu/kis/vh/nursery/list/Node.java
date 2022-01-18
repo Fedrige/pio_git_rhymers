@@ -7,16 +7,14 @@ public class Node {
     private Node next;
 
     public Node(int i) {
-        setValue(i);
+        value = i;
     }
 
     public int getValue() {
         return value;
     }
-
-    public void setValue(int value) {
-        this.value = value;
-    }
+    //usunięcie setValue, ponieważ jest używany tylko w tej klasie, więc zamiast używać settera moze
+    //przypisać od razu wartość do value
 
     public Node getPrev() {
         return prev;
