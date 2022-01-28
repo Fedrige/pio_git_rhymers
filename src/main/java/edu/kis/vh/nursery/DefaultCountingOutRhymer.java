@@ -15,6 +15,7 @@ public class DefaultCountingOutRhymer {
 
     /**
      * Zwracanie całkowitej wartości stosu
+     *
      * @return całkowita wartość stosu
      */
     public int getTotal() {
